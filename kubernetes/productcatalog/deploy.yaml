@@ -31,7 +31,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: samishken/product-catalog:14412918728
+          image: ghcr.io/open-telemetry/demo:2.0.2-product-catalog
           imagePullPolicy: IfNotPresent
           ports:
             
